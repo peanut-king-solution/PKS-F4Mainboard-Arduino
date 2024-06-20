@@ -3,8 +3,8 @@
     {
       "name": "STMicroelectronics",
       "maintainer": "STMicroelectronics",
-      "websiteUrl": "https://github.com/stm32duino",
-      "Url": "https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json",
+      "websiteUrl": "https://github.com/peanut-king-solution/PKS-F4Mainboard-Arduino",
+      "Url": "https://github.com/peanut-king-solution/PKS-F4Mainboard-Arduino/installed.json",
       "email": "stmduino@st.com",
       "platforms": [
         {
