@@ -1,0 +1,45 @@
+# See: https://arduino.github.io/arduino-cli/latest/platform-specification/
+
+menu.pnum=Board part number
+
+menu.xserial=U(S)ART support
+menu.usb=USB support (if available)
+menu.xusb=USB speed (if available)
+menu.virtio=Virtual serial support
+
+menu.opt=Optimize
+menu.dbg=Debug symbols and core logs
+menu.rtlib=C Runtime Library
+menu.upload_method=Upload method
+
+################################################################################
+
+PKS-F4-mb.name=PKS-F4Mainboard
+
+PKS-F4-mb.build.core=arduino
+PKS-F4-mb.build.board=NUCLEO_F446RE
+PKS-F4-mb.build.variant_h=variant_{build.board}.h
+PKS-F4-mb.build.st_extra_flags=-D{build.product_line} {build.enable_usb} {build.xSerial}
+PKS-F4-mb.upload.maximum_size=134266880
+PKS-F4-mb.upload.maximum_data_size=131072
+PKS-F4-mb.build.mcu=cortex-m4
+PKS-F4-mb.build.fpu=-mfpu=fpv4-sp-d16
+PKS-F4-mb.build.float-abi=-mfloat-abi=hard
+PKS-F4-mb.build.series=STM32F4xx
+PKS-F4-mb.build.product_line=STM32F446xx
+PKS-F4-mb.build.variant=STM32F4xx/F446R(C-E)T
+PKS-F4-mb.build.flash_offset=0x0000c000
+
+
+# Upload menu
+
+PKS-F4-mb.menu.upload_method.dfuMethod=STM32CubeProgrammer (DFU)
+PKS-F4-mb.menu.upload_method.dfuMethod.upload.protocol=2
+PKS-F4-mb.menu.upload_method.dfuMethod.upload.options=
+PKS-F4-mb.menu.upload_method.dfuMethod.upload.tool=stm32CubeProg
+
+PKS-F4-mb.menu.upload_method.swdMethod=STM32CubeProgrammer (SWD)
+PKS-F4-mb.menu.upload_method.swdMethod.upload.protocol=0
+PKS-F4-mb.menu.upload_method.swdMethod.upload.options=
+PKS-F4-mb.menu.upload_method.swdMethod.upload.tool=stm32CubeProg
+
