@@ -14,9 +14,9 @@
           "deprecated": false,
           "category": "Contributed",
           "url": "https://github.com/stm32duino/Arduino_Core_STM32/releases/download/2.7.1/STM32-2.7.1.tar.bz2",
-          "archiveFileName": "STM32-2.7.1.tar.bz2",
-          "checksum": "SHA-256:8b2adbc9ca4a58130bba5023448fddd60df302fce179de2453bdd767438ca70c",
-          "size": "46994475",
+          "archiveFileName": "PKS-F4Mainboard-Arduino-main.zip",
+          "checksum": "SHA-256:2DACEAF403F0D1B4C3AD4221B6BEB74A0A1D2A870F629E57716E11774E793F70",
+          "size": "44668719",
           "boards": [
             {
               "name": "PKS-F4-mb"
