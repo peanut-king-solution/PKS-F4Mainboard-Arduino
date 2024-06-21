@@ -16,7 +16,7 @@
           "url": "https://github.com/peanut-king-solution/PKS-F4Mainboard-Arduino/archive/refs/tags/Release.zip",
           "archiveFileName": "PKS-F4Mainboard-Arduino-Releases.zip",
           "checksum": "SHA-256:4F7420F8F94C9EBC19B3B5A2956D0CCEB5528BBDDFDB9D0A8EAA0F85D99C4713",
-          "size": "44668719",
+          "size": "44688516",
           "boards": [
             {
               "name": "PKS-F4-mb"
